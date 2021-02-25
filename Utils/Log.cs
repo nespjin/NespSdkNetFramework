@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Threading;
 
 namespace NespSdkNetFramework.Utils
@@ -140,6 +141,7 @@ namespace NespSdkNetFramework.Utils
             return Println(bufID, priority, tag, null, msg, null);
         }
 
+        [MethodImpl(MethodImplOptions.Synchronized)]
         private static int Println(int bufID, int priority, string tag, Exception exception, string msg, params object[] args)
         {
             string priorirtName = GetPriorityName(priority);
