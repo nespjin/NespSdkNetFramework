@@ -56,9 +56,11 @@
     <Compile Include="Utils\Log.cs" />
     <Compile Include="Utils\NewtonsoftJsonFormatter.cs" />
     <Compile Include="Utils\ObjectUtils.cs" />
+    <Compile Include="Utils\UnitUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
