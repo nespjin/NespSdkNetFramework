@@ -8,7 +8,7 @@ namespace FishSpiderPluginEngineWPF.Utils
 {
     public class UnitUtils
     {
-        public static string GetStorageUnitString(float size)
+        public static string GetStorageUnitString(long size)
         {
             return GetStorageUnitString(size, new string[0]);
         }
@@ -19,7 +19,7 @@ namespace FishSpiderPluginEngineWPF.Utils
         /// <param name="size">The size to format, bytes</param>
         /// <param name="units">Units GB to KB</param>
         /// <returns></returns>
-        public static string GetStorageUnitString(float size,string[] units)
+        public static string GetStorageUnitString(long size,string[] units)
         {
             if (units == null) units = new string[0];
 
@@ -48,7 +48,7 @@ namespace FishSpiderPluginEngineWPF.Utils
             else
             {
                 string unit = "B";
-                return String.Format("{0:N3} ", size / KB) + unit;
+                return String.Format("{0:N3} ", size) + unit;
             }
         }
     }
