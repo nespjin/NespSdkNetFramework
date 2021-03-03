@@ -48,7 +48,7 @@ namespace NespSdkNetFramework.Utils
             else
             {
                 string unit = "B";
-                return String.Format("{0:N3} ", size / KB) + unit;
+                return String.Format("{0:N3} ", size) + unit;
             }
         }
     }
