@@ -6,7 +6,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Windows;
 
-namespace NespSdkNetFramework.Utils
+namespace FishSpiderPluginEngineWPF.Utils
 {
     public static class AppUtils
     {

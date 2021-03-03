@@ -1,11 +1,11 @@
-﻿using NespSdkNetFramework.Utils;
+﻿using FishSpiderPluginEngineWPF.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NespSdkNetFramework.Lang
+namespace FishSpiderPluginEngineWPF.Lang
 {
     /// <summary>
     /// This class is extension C Sharp language standard library.
