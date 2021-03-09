@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FishSpiderPluginEngineWPF.Utils
+namespace NespSdkNetFramework.Utils
 {
     using Newtonsoft.Json;
     class NewtonsoftJsonFormatter : IJsonFormatter

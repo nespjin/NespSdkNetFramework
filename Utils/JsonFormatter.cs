@@ -1,6 +1,6 @@
 ﻿
 
-namespace FishSpiderPluginEngineWPF.Utils
+namespace NespSdkNetFramework.Utils
 {
     using System;
     public class JsonFormatter : IJsonFormatter

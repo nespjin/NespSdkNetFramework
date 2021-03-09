@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace FishSpiderPluginEngineWPF.Utils
+namespace NespSdkNetFramework.Utils
 {
     public sealed class Log
     {

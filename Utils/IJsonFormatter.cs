@@ -1,4 +1,4 @@
-﻿namespace FishSpiderPluginEngineWPF.Utils
+﻿namespace NespSdkNetFramework.Utils
 {
     interface IJsonFormatter
     {
