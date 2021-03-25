@@ -33,9 +33,15 @@ namespace NespSdkNetFramework
 {
     public static class DateTimeExtensions
     {
+        /// <summary>
+        /// Gets total milliseconds of date time.
+        /// </summary>
+        /// <param name="dateTime">Date time to get total milliseconds</param>
+        /// <returns>Total miliseconds</returns>
         public static double TotalMilliseconds(this DateTime dateTime)
         {
             return TimeSpan.FromTicks(dateTime.Ticks).TotalMilliseconds;
         }
+
     }
 }
